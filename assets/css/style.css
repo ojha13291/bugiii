@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f4f4;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 4em 2em;
+    background-color: #ffadad;
+    border-bottom: 5px solid #ff4d4d;
+    color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  nav {
+    margin-top: 2em;
+  }
+  
+  nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ff4d4d;
+    transform: scale(1.1);
+  }
+  
+  /* Poem Page Styles */
+  main {
+    padding: 3em 1em;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  main p {
+    font-size: 1.3em;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #444;
+  }
+  
+  footer a {
+    color: #ff4d4d;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Background Image for Home Page */
+  body {
+    background-image: url('../assets/images/love-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  header {
+    background-color: rgba(255, 173, 173, 0.7); /* Semi-transparent background */
+  }
+  
+  h1, p {
+    animation: fadeIn 2s ease-out;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
